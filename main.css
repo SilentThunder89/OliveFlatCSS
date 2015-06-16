@@ -1,0 +1,110 @@
+html{
+  -moz-text-size-adjust: auto;
+  -webkit-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+}
+
+html, body{
+  margin:0;
+  padding:0;
+  border: 0;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #f5f5f5;
+  height: 100%;
+  width: 100%;
+}
+
+.contentBox{
+  background-color: white;
+  margin: 0.4%;
+  padding:0;
+  box-shadow: 0.2em 0.2em 0.4em -0.2em #777;
+}
+
+#mainBar {
+  text-align: right;
+  width:auto;
+  float:none;
+}
+
+#leftBar{
+  width:10%;
+  height:100%;
+  float: left;
+  }
+
+#rightBar{
+  width: 88.4%;
+  height:100%;
+  float:left;
+  clear:right;
+}
+
+.linkList{
+  padding:0;
+  margin:0;
+}
+
+.linkList li{
+  display: inline-block;
+  margin:0;
+  padding:0.4em 0.7em;
+  list-style: none;
+}
+
+#topBarLinks{
+  text-align: right;
+}
+
+#topBarLinks li{
+  float: none;
+  text-align: center;
+  display: inline-block;
+}
+
+
+#topBarLinks li:hover{
+  box-shadow: inset 0px -0.1em #47A347;
+}
+#topBarLinks li:hover > a{
+  color: #47A347;
+}
+
+.linkList a {
+    color: #777;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#pageTitle{
+  font-size: 100%;
+  color: #FFF;
+  text-align: center;
+  display:inline-block;
+  float: left;
+  margin: 0;
+  padding:0.4em 3em;
+  background-color: #47A347;
+  width: auto;
+  box-shadow: 0.1em 0.1em 0.4em -0.1em #777;
+}
+
+#leftBarLinks{
+  text-align: left;
+}
+
+#leftBarLinks li{
+  float: none;
+  text-align: left;
+  display: block;
+}
+
+
+#leftBarLinks li:hover{
+  box-shadow: inset 0px -0.1em #47A347;
+}
+#leftBarLinks li:hover > a{
+  color: #47A347;
+}
